@@ -5,11 +5,11 @@ const CafeSideBar = ({ cafeId }: prop) => {
   const sideMenu: { id: number; name: String }[] = [
     {
       id: 1,
-      name: "공지",
+      name: "공지사항",
     },
     {
       id: 2,
-      name: "게시",
+      name: "입양후기",
     },
   ];
   return (
@@ -17,7 +17,7 @@ const CafeSideBar = ({ cafeId }: prop) => {
       <Row className="mb-4">
         <Col>
           <Link to={`/cafe/${cafeId}`} className="no-underline text-black ">
-            <h3 className="hover:text-blue-300">title</h3>
+            <h3 className="hover:text-blue-300">카테고리</h3>
           </Link>
         </Col>
       </Row>

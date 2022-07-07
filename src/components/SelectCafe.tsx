@@ -3,14 +3,14 @@ import { Button, Col, Container, Input, InputGroup, Row } from "reactstrap";
 import { Cafe, ValueStringType } from "../types/defaultType";
 import CafeList from "./CafeList";
 const joinCafe: Cafe[] = [
-  { id: 0, content: "hi", img: "/img/a.png", name: "hi" },
-  { id: 1, content: "wq", img: "/img/a.png", name: "wq" },
-  { id: 2, content: "ge", img: "/img/a.png", name: "ge" },
+  { id: 0, content: "hi", img: "/img/a.png", name: "강아지 카페" },
+  { id: 1, content: "dd", img: "/img/a.png", name: "야옹이 카페" },
+  { id: 2, content: "qq", img: "/img/a.png", name: "햄스터 카페" },
 ];
 const notJoinCafe: Cafe[] = [
-  { id: 3, content: "qq", img: "/img/a.png", name: "qq" },
-  { id: 4, content: "dsa", img: "/img/a.png", name: "dsa" },
-  { id: 5, content: "vcxz", img: "/img/a.png", name: "vcxz" },
+  { id: 3, content: "귀뚜라미 카페에 가입해보세요", img: "/img/a.png", name: "귀뚜라미 카페" },
+  { id: 4, content: "곱등이 카페에 가입해보세요", img: "/img/a.png", name: "곱등이 카페" },
+  { id: 5, content: "곤충 카페에 가입해보세요", img: "/img/a.png", name: "곤충 카페" },
 ];
 const SelectCafe = () => {
   const [key, setKey] = useState<ValueStringType>("");

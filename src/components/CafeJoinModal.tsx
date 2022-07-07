@@ -13,7 +13,7 @@ const CafeJoinModal = ({ onClose, show, cafe }: prop) => {
         <Container>
           <Row>
             <Col xs={3} className="text-gray-500">
-              설명
+              카페 설명
             </Col>
             <Col xs={9}>{cafe.content}</Col>
           </Row>
